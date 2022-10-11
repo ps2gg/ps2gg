@@ -1,0 +1,26 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@ps2gg/census/api": ["libs/census/api/src/index.ts"],
+      "@ps2gg/census/types": ["libs/census/types/src/index.ts"],
+      "@ps2gg/common/constants": ["libs/common/constants/src/index.ts"],
+      "@ps2gg/common/logging": ["libs/common/logging/src/index.ts"],
+      "@ps2gg/players-api": ["libs/players/api/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

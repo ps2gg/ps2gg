@@ -1,0 +1,33 @@
+networks:
+  internal: {}
+services:
+  census:
+    entrypoint:
+    - yarn
+    - nx
+    - serve
+    - census
+    image: 127.0.0.1:5000/ps2gg:dev
+    networks:
+      internal: null
+    volumes:
+    - /opt/planetside/ps2gg:/app:rw
+  players:
+    entrypoint:
+    - yarn
+    - nx
+    - serve
+    - players
+    image: 127.0.0.1:5000/ps2gg:dev
+    networks:
+      internal: null
+    volumes:
+    - /opt/planetside/ps2gg:/app:rw
+  postgres:
+    image: postgres
+    networks:
+      internal: null
+    volumes:
+    - /opt/planetside/ps2gg/.data:/var/lib/postgresql/data:rw
+version: '3.4'
+

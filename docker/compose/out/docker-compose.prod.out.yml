@@ -1,0 +1,27 @@
+networks:
+  internal: {}
+services:
+  alts:
+    environment:
+      APP_DIR: /app/apps/alts
+    image: 127.0.0.1:5000/alts:prod
+    networks:
+      internal: {}
+  mongo:
+    image: mongo
+    networks:
+      internal: {}
+    volumes:
+    - /data/db:/data/db:rw
+  peepo:
+    environment:
+      APP_DIR: /app/apps/peepo
+    image: 127.0.0.1:5000/peepo:prod
+    networks:
+      internal: {}
+  redis:
+    image: redis
+    networks:
+      internal: {}
+version: '3.4'
+

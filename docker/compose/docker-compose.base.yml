@@ -1,0 +1,9 @@
+version: '3.4'
+services:
+  postgres:
+    image: postgres
+    networks:
+      - internal
+
+networks:
+  internal:

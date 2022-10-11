@@ -1,0 +1,13 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "census": "services/census",
+    "census-api": "libs/census/api",
+    "census-types": "libs/census/types",
+    "common-constants": "libs/common/constants",
+    "common-logging": "libs/common/logging",
+    "players": "services/players",
+    "players-api": "libs/players/api"
+  }
+}

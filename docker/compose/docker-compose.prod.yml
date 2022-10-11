@@ -1,0 +1,22 @@
+version: '3.4'
+services:
+  alts:
+    image: 127.0.0.1:5000/alts:prod
+    networks:
+      - internal
+    environment:
+      - APP_DIR=/app/apps/alts
+
+  peepo:
+    image: 127.0.0.1:5000/peepo:prod
+    networks:
+      - internal
+    environment:
+      - APP_DIR=/app/apps/peepo
+  
+  mongo:
+    volumes:
+      - /data/db:/data/db
+
+networks:
+  internal:

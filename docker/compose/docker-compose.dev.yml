@@ -1,0 +1,32 @@
+version: '3.4'
+services:
+  census:
+    image: 127.0.0.1:5000/ps2gg:dev
+    entrypoint:
+      - yarn
+      - nx
+      - serve
+      - census
+    networks:
+      - internal
+    volumes:
+      - ../../:/app
+
+  players:
+    image: 127.0.0.1:5000/ps2gg:dev
+    entrypoint:
+      - yarn
+      - nx
+      - serve
+      - players
+    networks:
+      - internal
+    volumes:
+      - ../../:/app
+
+  postgres:
+    volumes:
+      - ../../.data:/var/lib/postgresql/data
+
+networks:
+  internal:
