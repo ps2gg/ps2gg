@@ -13,6 +13,10 @@ docker service create -d \
   --mount type=volume,source=registry,destination=/var/lib/registry,volume-driver=local \
   registry:latest
 
+# Custom overlay network to connect new and legacy stack
+echo "Setting up overlay network"
+docker network create -driver overlay --attachable ps2gg_internal
+
 # Cleanup
 echo "Cleaning up unused images and containers..."
 docker image prune -a -f
