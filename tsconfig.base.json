@@ -19,6 +19,9 @@
       "@ps2gg/census/types": ["libs/census/types/src/index.ts"],
       "@ps2gg/common/constants": ["libs/common/constants/src/index.ts"],
       "@ps2gg/common/logging": ["libs/common/logging/src/index.ts"],
+      "@ps2gg/common/util": ["libs/common/util/src/index.ts"],
+      "@ps2gg/discord/alts": ["libs/discord/alts/src/index.ts"],
+      "@ps2gg/discord/controllers": ["libs/discord/controllers/src/index.ts"],
       "@ps2gg/players-api": ["libs/players/api/src/index.ts"]
     }
   },

@@ -1,27 +1,20 @@
 networks:
-  internal: {}
+  ps2gg_internal:
+    external: true
+secrets:
+  discord_token:
+    external: true
 services:
-  alts:
-    environment:
-      APP_DIR: /app/apps/alts
-    image: 127.0.0.1:5000/alts:prod
+  discord:
+    entrypoint:
+    - sh
+    - /app/services/discord/src/entrypoint.sh
+    image: 127.0.0.1:5000/ps2gg:prod
     networks:
-      internal: {}
-  mongo:
-    image: mongo
-    networks:
-      internal: {}
+      ps2gg_internal: null
+    secrets:
+    - source: discord_token
     volumes:
-    - /data/db:/data/db:rw
-  peepo:
-    environment:
-      APP_DIR: /app/apps/peepo
-    image: 127.0.0.1:5000/peepo:prod
-    networks:
-      internal: {}
-  redis:
-    image: redis
-    networks:
-      internal: {}
+    - /opt/planetside/ps2gg:/app:rw
 version: '3.4'
 

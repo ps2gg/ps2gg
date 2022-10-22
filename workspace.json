@@ -7,6 +7,10 @@
     "census-types": "libs/census/types",
     "common-constants": "libs/common/constants",
     "common-logging": "libs/common/logging",
+    "common-util": "libs/common/util",
+    "discord": "services/discord",
+    "discord-alts": "libs/discord/alts",
+    "discord-controllers": "libs/discord/controllers",
     "players": "services/players",
     "players-api": "libs/players/api"
   }

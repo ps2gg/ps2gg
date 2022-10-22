@@ -31,6 +31,7 @@ function getDevelopmentTransports() {
         timestamp({ format: 'YYYY-MM-DD hh:mm:ss.SSS A' }),
         format((info) => {
           info.level = info.level.toUpperCase()
+
           return info
         })(),
         align(),

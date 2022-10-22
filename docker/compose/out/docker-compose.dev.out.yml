@@ -1,5 +1,9 @@
 networks:
-  internal: {}
+  ps2gg_internal:
+    external: true
+secrets:
+  discord_token:
+    external: true
 services:
   census:
     entrypoint:
@@ -9,7 +13,20 @@ services:
     - census
     image: 127.0.0.1:5000/ps2gg:dev
     networks:
-      internal: null
+      ps2gg_internal: null
+    volumes:
+    - /opt/planetside/ps2gg:/app:rw
+  discord:
+    entrypoint:
+    - yarn
+    - nx
+    - serve
+    - discord
+    image: 127.0.0.1:5000/ps2gg:dev
+    networks:
+      ps2gg_internal: null
+    secrets:
+    - source: discord_token
     volumes:
     - /opt/planetside/ps2gg:/app:rw
   players:
@@ -20,14 +37,8 @@ services:
     - players
     image: 127.0.0.1:5000/ps2gg:dev
     networks:
-      internal: null
+      ps2gg_internal: null
     volumes:
     - /opt/planetside/ps2gg:/app:rw
-  postgres:
-    image: postgres
-    networks:
-      internal: null
-    volumes:
-    - /opt/planetside/ps2gg/.data:/var/lib/postgresql/data:rw
 version: '3.4'
 

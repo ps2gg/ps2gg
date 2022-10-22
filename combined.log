@@ -1,0 +1,258 @@
+{"level":"info","message":"Loaded commands: alt","service":"Commands","timestamp":"2022-10-18T15:01:35.763Z"}
+{"level":"info","message":"Registered global Slash Commands","service":"Commands","timestamp":"2022-10-18T15:01:36.123Z"}
+{"level":"info","message":"Big Peepo connected.","service":"Discord","timestamp":"2022-10-18T15:01:36.559Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"kekbrg\"}]","service":"Discord","timestamp":"2022-10-18T15:02:00.176Z"}
+{"level":"info","message":"<@830271871474991125> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"hitman666nc\"}]","service":"Discord","timestamp":"2022-10-18T15:13:07.657Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"hejblvs\"}]","service":"Discord","timestamp":"2022-10-18T15:20:47.606Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"Missfirex\"}]","service":"Discord","timestamp":"2022-10-18T15:21:05.800Z"}
+{"level":"info","message":"<@347863658174349324> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"niceandfemale\"}]","service":"Discord","timestamp":"2022-10-18T15:46:55.728Z"}
+{"level":"info","message":"<@830271871474991125> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"niceandfemale\"}]","service":"Discord","timestamp":"2022-10-18T15:47:44.956Z"}
+{"level":"info","message":"Loaded commands: alt","service":"Commands","timestamp":"2022-10-18T16:10:21.284Z"}
+{"level":"info","message":"Registered global Slash Commands","service":"Commands","timestamp":"2022-10-18T16:10:21.683Z"}
+{"level":"info","message":"Big Peepo connected.","service":"Discord","timestamp":"2022-10-18T16:10:21.937Z"}
+{"level":"info","message":"<@582833885893754899> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"KawasakiGER\"}]","service":"Discord","timestamp":"2022-10-18T16:13:32.827Z"}
+{"level":"info","message":"Loaded commands: alt","service":"Commands","timestamp":"2022-10-18T16:14:24.955Z"}
+{"level":"info","message":"Registered global Slash Commands","service":"Commands","timestamp":"2022-10-18T16:14:25.262Z"}
+{"level":"info","message":"Big Peepo connected.","service":"Discord","timestamp":"2022-10-18T16:14:25.596Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"HunterCobra\"}]","service":"Discord","timestamp":"2022-10-18T16:20:38.471Z"}
+{"level":"info","message":"<@554323454942380057> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"TotallyBalancedFactionNoBiasHere\"}]","service":"Discord","timestamp":"2022-10-18T16:31:15.728Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: count | options: []","service":"Discord","timestamp":"2022-10-18T16:53:59.393Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"OmniCats\"}]","service":"Discord","timestamp":"2022-10-18T16:59:45.541Z"}
+{"level":"info","message":"<@148096464864673792> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"snikkelnc\"},{\"name\":\"full\",\"type\":5,\"value\":true}]","service":"Discord","timestamp":"2022-10-18T17:30:26.059Z"}
+{"level":"info","message":"<@582833885893754899> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"SkullTownsJanitor\"}]","service":"Discord","timestamp":"2022-10-18T17:32:02.028Z"}
+{"level":"info","message":"<@582833885893754899> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"SkullTownsJanitor\"}]","service":"Discord","timestamp":"2022-10-18T17:32:25.365Z"}
+{"level":"info","message":"<@293887958254092291> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"PunisherIceman\"}]","service":"Discord","timestamp":"2022-10-18T17:46:59.822Z"}
+{"level":"info","message":"<@293887958254092291> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"TvojaSobaka\"}]","service":"Discord","timestamp":"2022-10-18T17:49:42.287Z"}
+{"level":"info","message":"<@600362952109064222> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"Xaixenro\"}]","service":"Discord","timestamp":"2022-10-18T19:06:29.249Z"}
+{"level":"info","message":"<@582833885893754899> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"NSGDXoc\"}]","service":"Discord","timestamp":"2022-10-18T19:07:30.580Z"}
+{"level":"info","message":"<@582833885893754899> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"Parisine\"}]","service":"Discord","timestamp":"2022-10-18T19:07:55.175Z"}
+{"level":"info","message":"Loaded commands: alt","service":"Commands","timestamp":"2022-10-18T19:21:29.784Z"}
+{"level":"info","message":"Registered global Slash Commands","service":"Commands","timestamp":"2022-10-18T19:21:30.203Z"}
+{"level":"info","message":"Big Peepo connected.","service":"Discord","timestamp":"2022-10-18T19:21:30.537Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"S4V4G301\"}]","service":"Discord","timestamp":"2022-10-18T19:21:49.544Z"}
+{"level":"info","message":"<@729916461140803634> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"HeftyBandit\"},{\"name\":\"full\",\"type\":5,\"value\":true}]","service":"Discord","timestamp":"2022-10-18T19:31:47.115Z"}
+{"level":"info","message":"<@325988155834499076> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"Silamphre\"}]","service":"Discord","timestamp":"2022-10-18T19:49:39.403Z"}
+{"level":"info","message":"<@582833885893754899> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"Arkhadae\"}]","service":"Discord","timestamp":"2022-10-18T20:41:34.192Z"}
+{"level":"info","message":"<@582833885893754899> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"ST0CKFISH\"}]","service":"Discord","timestamp":"2022-10-18T20:43:30.050Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"XueHuePiaoPiaoBeiFengXiaoXiao\"}]","service":"Discord","timestamp":"2022-10-18T20:49:11.317Z"}
+{"level":"info","message":"<@582833885893754899> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"NoxVanNightmare\"}]","service":"Discord","timestamp":"2022-10-18T21:01:07.384Z"}
+{"level":"info","message":"<@582833885893754899> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"NCJango\"}]","service":"Discord","timestamp":"2022-10-18T21:01:26.751Z"}
+{"level":"info","message":"<@582833885893754899> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"TobyHD\"}]","service":"Discord","timestamp":"2022-10-18T21:02:16.783Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"emeraldpilottr\"}]","service":"Discord","timestamp":"2022-10-18T21:02:33.892Z"}
+{"level":"info","message":"<@383391286918512653> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"FrisstKugeln\"}]","service":"Discord","timestamp":"2022-10-18T21:46:22.619Z"}
+{"level":"info","message":"<@818447655318716417> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"CropHarvestBot\"}]","service":"Discord","timestamp":"2022-10-18T22:13:15.092Z"}
+{"level":"info","message":"<@600362952109064222> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"DontHitMePlz\"}]","service":"Discord","timestamp":"2022-10-18T22:14:35.746Z"}
+{"level":"info","message":"<@106462785549897728> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"jjboomstick\"}]","service":"Discord","timestamp":"2022-10-18T22:15:21.294Z"}
+{"level":"info","message":"<@106462785549897728> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"Grizzlebee1\"}]","service":"Discord","timestamp":"2022-10-18T22:18:02.800Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"keepcalmmate\"}]","service":"Discord","timestamp":"2022-10-18T22:18:41.286Z"}
+{"level":"info","message":"<@106462785549897728> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"BeastmodeNonexistantEmrald\"}]","service":"Discord","timestamp":"2022-10-18T22:18:55.259Z"}
+{"level":"info","message":"<@288824089966018560> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"PA3E6\"}]","service":"Discord","timestamp":"2022-10-18T23:00:50.816Z"}
+{"level":"info","message":"<@154043922811715584> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"n7jpicardbot\"}]","service":"Discord","timestamp":"2022-10-18T23:04:00.835Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: count | options: []","service":"Discord","timestamp":"2022-10-18T23:31:45.356Z"}
+{"level":"info","message":"<@338814927567454209> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"Excel\"}]","service":"Discord","timestamp":"2022-10-18T23:39:26.893Z"}
+{"level":"info","message":"<@233673371341160449> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"iam4peacens\"}]","service":"Discord","timestamp":"2022-10-18T23:47:35.932Z"}
+{"level":"info","message":"<@288824089966018560> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"skillpoison\"}]","service":"Discord","timestamp":"2022-10-18T23:56:00.856Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"iam4peanis\"}]","service":"Discord","timestamp":"2022-10-18T23:59:51.199Z"}
+{"level":"info","message":"<@125294851259367424> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"HigbyPlsBuffMee\"}]","service":"Discord","timestamp":"2022-10-19T00:59:50.216Z"}
+{"level":"info","message":"<@125294851259367424> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"RitaRossweisse\"}]","service":"Discord","timestamp":"2022-10-19T01:02:11.470Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"gordonram\"}]","service":"Discord","timestamp":"2022-10-19T03:12:22.471Z"}
+{"level":"info","message":"<@288824089966018560> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"JusGetGudder\"}]","service":"Discord","timestamp":"2022-10-19T03:29:02.076Z"}
+{"level":"info","message":"<@155282798175977472> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"Shayxis\"}]","service":"Discord","timestamp":"2022-10-19T07:41:29.555Z"}
+{"level":"info","message":"Loaded commands: alt","service":"Commands","timestamp":"2022-10-19T08:23:14.052Z"}
+{"level":"info","message":"Registered global Slash Commands","service":"Commands","timestamp":"2022-10-19T08:23:16.806Z"}
+{"level":"info","message":"Big Peepo connected.","service":"Discord","timestamp":"2022-10-19T08:23:17.329Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: count | options: []","service":"Discord","timestamp":"2022-10-19T08:23:38.151Z"}
+{"level":"info","message":"<@193417613542555648> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"xAlexV5\"}]","service":"Discord","timestamp":"2022-10-19T12:14:13.771Z"}
+{"level":"info","message":"<@378232333393854464> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"AndrewTateGamingHD\"}]","service":"Discord","timestamp":"2022-10-19T12:14:21.115Z"}
+{"level":"info","message":"<@378232333393854464> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"CallEggCVS\"}]","service":"Discord","timestamp":"2022-10-19T12:51:15.584Z"}
+{"level":"info","message":"<@276669458301321217> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"SENSEl\"}]","service":"Discord","timestamp":"2022-10-19T12:57:47.305Z"}
+{"level":"info","message":"<@288824089966018560> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"JusGetGudder\"}]","service":"Discord","timestamp":"2022-10-19T13:27:25.607Z"}
+{"level":"info","message":"<@196394355882328064> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"Nayon\"}]","service":"Discord","timestamp":"2022-10-19T13:31:46.346Z"}
+{"level":"info","message":"<@600362952109064222> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"Wienna\"}]","service":"Discord","timestamp":"2022-10-19T14:35:08.394Z"}
+{"level":"info","message":"<@600362952109064222> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"VerySltyPretzel\"}]","service":"Discord","timestamp":"2022-10-19T15:00:08.000Z"}
+{"level":"info","message":"<@209777507832954883> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"LateGameBossFight\"}]","service":"Discord","timestamp":"2022-10-19T15:03:35.741Z"}
+{"level":"info","message":"<@582833885893754899> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"Knaroef\"}]","service":"Discord","timestamp":"2022-10-19T15:28:18.466Z"}
+{"level":"info","message":"<@288824089966018560> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"QuakeLive\"}]","service":"Discord","timestamp":"2022-10-19T15:37:35.214Z"}
+{"level":"info","message":"<@193417613542555648> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"QuakeLive\"}]","service":"Discord","timestamp":"2022-10-19T15:38:20.075Z"}
+{"level":"info","message":"<@85542309898260480> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"lly1bot\"}]","service":"Discord","timestamp":"2022-10-19T16:41:51.996Z"}
+{"level":"info","message":"<@227143889100865536> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"twitteruser\"}]","service":"Discord","timestamp":"2022-10-19T17:22:09.903Z"}
+{"level":"info","message":"<@904201845113753661> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"rapid\"}]","service":"Discord","timestamp":"2022-10-19T18:04:38.056Z"}
+{"level":"info","message":"<@904201845113753661> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"rapid\"},{\"name\":\"full\",\"type\":5,\"value\":true}]","service":"Discord","timestamp":"2022-10-19T18:04:59.224Z"}
+{"level":"info","message":"<@904201845113753661> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"rapid\"},{\"name\":\"full\",\"type\":5,\"value\":true}]","service":"Discord","timestamp":"2022-10-19T18:05:41.534Z"}
+{"level":"info","message":"<@190827863900028928> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"Sandoorus\"}]","service":"Discord","timestamp":"2022-10-19T18:10:09.619Z"}
+{"level":"info","message":"<@582833885893754899> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"nsohohn\"}]","service":"Discord","timestamp":"2022-10-19T18:21:29.048Z"}
+{"level":"info","message":"<@153278024379269120> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"zealousvs\"}]","service":"Discord","timestamp":"2022-10-19T18:29:09.047Z"}
+{"level":"info","message":"<@224187523448963072> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"RevolutionaryDefeatism\"}]","service":"Discord","timestamp":"2022-10-19T18:34:36.329Z"}
+{"level":"info","message":"<@582833885893754899> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"ZonkD\"}]","service":"Discord","timestamp":"2022-10-19T18:42:36.546Z"}
+{"level":"info","message":"<@582833885893754899> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"husktr\"}]","service":"Discord","timestamp":"2022-10-19T18:43:07.828Z"}
+{"level":"info","message":"<@582833885893754899> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"wienna\"}]","service":"Discord","timestamp":"2022-10-19T18:43:27.048Z"}
+{"level":"info","message":"<@582833885893754899> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"SgtStinkySocks\"}]","service":"Discord","timestamp":"2022-10-19T18:46:08.171Z"}
+{"level":"info","message":"<@582833885893754899> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"Anstand\"}]","service":"Discord","timestamp":"2022-10-19T18:46:48.064Z"}
+{"level":"info","message":"<@582833885893754899> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"Shuell\"}]","service":"Discord","timestamp":"2022-10-19T18:47:16.466Z"}
+{"level":"info","message":"<@582833885893754899> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"Nucleartouch\"}]","service":"Discord","timestamp":"2022-10-19T18:50:59.743Z"}
+{"level":"info","message":"<@582833885893754899> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"Countercurrent\"}]","service":"Discord","timestamp":"2022-10-19T19:00:47.616Z"}
+{"level":"info","message":"<@582833885893754899> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"0JakobianeK0\"}]","service":"Discord","timestamp":"2022-10-19T19:06:48.550Z"}
+{"level":"info","message":"<@582833885893754899> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"Kalybor\"}]","service":"Discord","timestamp":"2022-10-19T19:21:12.980Z"}
+{"level":"info","message":"<@219894917370085389> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"radarsneers\"}]","service":"Discord","timestamp":"2022-10-19T19:25:16.671Z"}
+{"level":"info","message":"<@204078809845202944> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"GrillGames\"}]","service":"Discord","timestamp":"2022-10-19T19:43:15.586Z"}
+{"level":"info","message":"<@90142591508574208> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"Dulciesparktak\"}]","service":"Discord","timestamp":"2022-10-19T21:20:56.271Z"}
+{"level":"info","message":"Loaded commands: alt","service":"Commands","timestamp":"2022-10-19T21:31:56.825Z"}
+{"level":"info","message":"Registered global Slash Commands","service":"Commands","timestamp":"2022-10-19T21:31:57.391Z"}
+{"level":"info","message":"Big Peepo connected.","service":"Discord","timestamp":"2022-10-19T21:31:58.560Z"}
+{"level":"info","message":"<@90142591508574208> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"WarbirdTD\"}]","service":"Discord","timestamp":"2022-10-19T21:33:19.901Z"}
+{"level":"info","message":"<@830271871474991125> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"honkhonkhonk69\"}]","service":"Discord","timestamp":"2022-10-19T22:23:33.131Z"}
+{"level":"info","message":"<@290092383805243393> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"NeroNS\"}]","service":"Discord","timestamp":"2022-10-19T23:15:06.653Z"}
+{"level":"info","message":"<@290092383805243393> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"Nero\"}]","service":"Discord","timestamp":"2022-10-19T23:15:50.057Z"}
+{"level":"info","message":"<@290092383805243393> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"ignorance2022\"}]","service":"Discord","timestamp":"2022-10-19T23:17:37.146Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: count | options: []","service":"Discord","timestamp":"2022-10-19T23:19:44.188Z"}
+{"level":"info","message":"<@90142591508574208> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"milk\"}]","service":"Discord","timestamp":"2022-10-20T01:03:32.361Z"}
+{"level":"info","message":"<@204078809845202944> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"VKTZRinger\"}]","service":"Discord","timestamp":"2022-10-20T01:47:58.297Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"RoboKobold\"}]","service":"Discord","timestamp":"2022-10-20T03:17:07.397Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"opshax\"}]","service":"Discord","timestamp":"2022-10-20T03:18:17.702Z"}
+{"level":"info","message":"<@1032517196821299210> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"IongIight\"}]","service":"Discord","timestamp":"2022-10-20T05:02:34.793Z"}
+{"level":"info","message":"<@378232333393854464> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"CommiPotato\"}]","service":"Discord","timestamp":"2022-10-20T07:12:55.780Z"}
+{"level":"info","message":"<@255473150974885888> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"PS2ESF\"}]","service":"Discord","timestamp":"2022-10-20T07:46:48.017Z"}
+{"level":"info","message":"<@600362952109064222> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"nscyborgcommando\"},{\"name\":\"full\",\"type\":5,\"value\":true}]","service":"Discord","timestamp":"2022-10-20T08:39:10.197Z"}
+{"level":"info","message":"<@600362952109064222> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"Siskala\"}]","service":"Discord","timestamp":"2022-10-20T08:50:45.225Z"}
+{"level":"info","message":"<@600362952109064222> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"buskala\"}]","service":"Discord","timestamp":"2022-10-20T09:07:54.198Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"opshax\"}]","service":"Discord","timestamp":"2022-10-20T09:17:17.667Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"longlight\"}]","service":"Discord","timestamp":"2022-10-20T09:17:34.142Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"IongIight\"}]","service":"Discord","timestamp":"2022-10-20T09:18:40.925Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"alandwale\"}]","service":"Discord","timestamp":"2022-10-20T09:19:29.194Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"ALandWhale\"}]","service":"Discord","timestamp":"2022-10-20T09:19:39.848Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"kekbrg\"}]","service":"Discord","timestamp":"2022-10-20T09:19:47.048Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"rlybrg\"}]","service":"Discord","timestamp":"2022-10-20T09:20:00.031Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"undeletemeplease659\"}]","service":"Discord","timestamp":"2022-10-20T09:20:14.020Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"BrgherKing\"}]","service":"Discord","timestamp":"2022-10-20T09:20:26.031Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"brghbrghbrghbrgh\"}]","service":"Discord","timestamp":"2022-10-20T09:20:42.971Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"BasicHeavy\"}]","service":"Discord","timestamp":"2022-10-20T09:28:16.824Z"}
+{"level":"info","message":"Loaded commands: alt","service":"Commands","timestamp":"2022-10-20T09:30:22.437Z"}
+{"level":"info","message":"Registered global Slash Commands","service":"Commands","timestamp":"2022-10-20T09:30:22.805Z"}
+{"level":"info","message":"Big Peepo connected.","service":"Discord","timestamp":"2022-10-20T09:30:23.325Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"kekbrg\"}]","service":"Discord","timestamp":"2022-10-20T09:31:05.416Z"}
+{"level":"info","message":"Loaded commands: alt","service":"Commands","timestamp":"2022-10-20T09:31:35.490Z"}
+{"level":"info","message":"Registered global Slash Commands","service":"Commands","timestamp":"2022-10-20T09:31:35.842Z"}
+{"level":"info","message":"Big Peepo connected.","service":"Discord","timestamp":"2022-10-20T09:31:38.105Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"benis\"}]","service":"Discord","timestamp":"2022-10-20T09:31:45.875Z"}
+{"level":"info","message":"Loaded commands: alt","service":"Commands","timestamp":"2022-10-20T09:37:03.897Z"}
+{"level":"info","message":"Registered global Slash Commands","service":"Commands","timestamp":"2022-10-20T09:37:04.316Z"}
+{"level":"info","message":"Big Peepo connected.","service":"Discord","timestamp":"2022-10-20T09:37:04.507Z"}
+{"level":"info","message":"Loaded commands: alt","service":"Commands","timestamp":"2022-10-20T09:37:18.111Z"}
+{"level":"info","message":"Registered global Slash Commands","service":"Commands","timestamp":"2022-10-20T09:37:18.494Z"}
+{"level":"info","message":"Big Peepo connected.","service":"Discord","timestamp":"2022-10-20T09:37:19.297Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"mousepad\"}]","service":"Discord","timestamp":"2022-10-20T09:37:30.320Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"BierBoyTR\"}]","service":"Discord","timestamp":"2022-10-20T09:38:39.961Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"mariokultra\"}]","service":"Discord","timestamp":"2022-10-20T09:47:01.694Z"}
+{"level":"info","message":"<@317590860911083522> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"MarioKUltra\"}]","service":"Discord","timestamp":"2022-10-20T09:47:18.196Z"}
+{"level":"info","message":"<@317590860911083522> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"A13B22TR\"}]","service":"Discord","timestamp":"2022-10-20T09:48:17.198Z"}
+{"level":"info","message":"<@193417613542555648> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"Hejbl\"}]","service":"Discord","timestamp":"2022-10-20T10:20:26.116Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"SoKNC\"}]","service":"Discord","timestamp":"2022-10-20T10:44:41.739Z"}
+{"level":"info","message":"<@830271871474991125> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"hitman666nc\"}]","service":"Discord","timestamp":"2022-10-20T11:15:49.171Z"}
+{"level":"info","message":"<@830271871474991125> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"britneyspearstoxic\"}]","service":"Discord","timestamp":"2022-10-20T11:16:01.943Z"}
+{"level":"info","message":"<@830271871474991125> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"annoyedrooster\"}]","service":"Discord","timestamp":"2022-10-20T11:16:23.976Z"}
+{"level":"info","message":"<@600362952109064222> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"SenLinnnn\"}]","service":"Discord","timestamp":"2022-10-20T11:43:04.485Z"}
+{"level":"info","message":"<@600362952109064222> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"senlinnn\"}]","service":"Discord","timestamp":"2022-10-20T11:43:51.048Z"}
+{"level":"info","message":"<@818447655318716417> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"CropHarvestBotMkII\"}]","service":"Discord","timestamp":"2022-10-20T16:21:01.086Z"}
+{"level":"info","message":"<@183213271128604672> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"P3RF3CTION\"}]","service":"Discord","timestamp":"2022-10-20T17:21:44.591Z"}
+{"level":"info","message":"<@464459221078114304> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"Senlinnn\"}]","service":"Discord","timestamp":"2022-10-20T17:21:48.100Z"}
+{"level":"info","message":"<@633366184137326602> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"donttryhard\"}]","service":"Discord","timestamp":"2022-10-20T17:22:26.507Z"}
+{"level":"info","message":"<@633366184137326602> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"donttryhard full\"}]","service":"Discord","timestamp":"2022-10-20T17:24:07.771Z"}
+{"level":"info","message":"<@90142591508574208> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"Fatrobbie\"}]","service":"Discord","timestamp":"2022-10-20T18:22:59.818Z"}
+{"level":"info","message":"<@193417613542555648> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"YOLLIKUHKOT\"}]","service":"Discord","timestamp":"2022-10-20T18:26:29.617Z"}
+{"level":"info","message":"<@600362952109064222> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"sirhornyalot177\"}]","service":"Discord","timestamp":"2022-10-20T18:33:58.389Z"}
+{"level":"info","message":"<@600362952109064222> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"mightyvs\"}]","service":"Discord","timestamp":"2022-10-20T19:13:58.376Z"}
+{"level":"info","message":"Loaded commands: alt","service":"Commands","timestamp":"2022-10-20T20:11:07.047Z"}
+{"level":"info","message":"Registered global Slash Commands","service":"Commands","timestamp":"2022-10-20T20:11:07.491Z"}
+{"level":"info","message":"Big Peepo connected.","service":"Discord","timestamp":"2022-10-20T20:11:08.004Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: count | options: []","service":"Discord","timestamp":"2022-10-20T20:11:09.392Z"}
+{"level":"info","message":"<@582833885893754899> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"xRainTR\"}]","service":"Discord","timestamp":"2022-10-20T21:07:33.302Z"}
+{"level":"info","message":"<@288824089966018560> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"xMEDK\"}]","service":"Discord","timestamp":"2022-10-20T21:22:53.385Z"}
+{"level":"info","message":"<@600362952109064222> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"Boko2K\"}]","service":"Discord","timestamp":"2022-10-20T22:00:17.351Z"}
+{"level":"info","message":"<@288824089966018560> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"facer\"}]","service":"Discord","timestamp":"2022-10-20T22:32:07.774Z"}
+{"level":"info","message":"<@288824089966018560> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"mommyaponia\"}]","service":"Discord","timestamp":"2022-10-20T22:37:57.734Z"}
+{"level":"info","message":"<@378232333393854464> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"SLVYER\"}]","service":"Discord","timestamp":"2022-10-21T00:16:15.993Z"}
+{"level":"info","message":"<@378232333393854464> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"PlayToWin\"}]","service":"Discord","timestamp":"2022-10-21T00:25:29.837Z"}
+{"level":"info","message":"<@378232333393854464> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"PlayToWin9\"}]","service":"Discord","timestamp":"2022-10-21T00:25:57.146Z"}
+{"level":"info","message":"<@125294851259367424> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"rockopener\"}]","service":"Discord","timestamp":"2022-10-21T01:46:12.534Z"}
+{"level":"info","message":"<@125294851259367424> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"ihavekitchenaids\"}]","service":"Discord","timestamp":"2022-10-21T02:18:28.353Z"}
+{"level":"info","message":"<@125294851259367424> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"animegeeks\"}]","service":"Discord","timestamp":"2022-10-21T02:26:51.644Z"}
+{"level":"info","message":"<@240085323512545280> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"Fioreda\"},{\"name\":\"full\",\"type\":5,\"value\":true}]","service":"Discord","timestamp":"2022-10-21T04:27:26.406Z"}
+{"level":"info","message":"<@725605806262714389> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"MatildeSan\"},{\"name\":\"full\",\"type\":5,\"value\":true}]","service":"Discord","timestamp":"2022-10-21T04:47:23.345Z"}
+{"level":"info","message":"<@247220619760893953> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"Dux\"}]","service":"Discord","timestamp":"2022-10-21T05:10:07.958Z"}
+{"level":"info","message":"<@378232333393854464> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"CaptainLiechtenstein\"}]","service":"Discord","timestamp":"2022-10-21T07:46:09.676Z"}
+{"level":"info","message":"<@150541456400973824> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"Muffinator\"}]","service":"Discord","timestamp":"2022-10-21T08:14:30.716Z"}
+{"level":"info","message":"<@150541456400973824> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"Muffinator21\"}]","service":"Discord","timestamp":"2022-10-21T08:14:59.944Z"}
+{"level":"info","message":"<@164052702404411393> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"PeachblossomIsland\"}]","service":"Discord","timestamp":"2022-10-21T09:09:51.059Z"}
+{"level":"info","message":"<@877583854620266496> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"ezboyASTR\"}]","service":"Discord","timestamp":"2022-10-21T11:14:24.183Z"}
+{"level":"info","message":"<@877583854620266496> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"ezboyASNC\"}]","service":"Discord","timestamp":"2022-10-21T11:38:18.825Z"}
+{"level":"info","message":"<@877583854620266496> interaction: alt | subcommand: count | options: []","service":"Discord","timestamp":"2022-10-21T11:42:31.616Z"}
+{"level":"info","message":"<@877583854620266496> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"ezboyASNC\"}]","service":"Discord","timestamp":"2022-10-21T11:43:05.518Z"}
+{"level":"info","message":"<@877583854620266496> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"ezboyASTR\"},{\"name\":\"full\",\"type\":5,\"value\":true}]","service":"Discord","timestamp":"2022-10-21T11:43:58.717Z"}
+{"level":"info","message":"<@276669458301321217> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"ShotgunConnoisseur\"}]","service":"Discord","timestamp":"2022-10-21T12:13:33.912Z"}
+{"level":"info","message":"<@276669458301321217> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"LonesomeFrogface\"}]","service":"Discord","timestamp":"2022-10-21T12:16:43.998Z"}
+{"level":"info","message":"<@276669458301321217> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"Daddy010\"}]","service":"Discord","timestamp":"2022-10-21T12:17:18.640Z"}
+{"level":"info","message":"<@276669458301321217> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"sircr0wley\"}]","service":"Discord","timestamp":"2022-10-21T12:18:10.810Z"}
+{"level":"info","message":"<@830271871474991125> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"britneyspearstoxic\"}]","service":"Discord","timestamp":"2022-10-21T12:41:37.594Z"}
+{"level":"info","message":"<@830271871474991125> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"hitman666nc\"}]","service":"Discord","timestamp":"2022-10-21T12:41:48.079Z"}
+{"level":"info","message":"<@84600137447374848> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"GARVI3LxLOK3N\"}]","service":"Discord","timestamp":"2022-10-21T12:58:23.438Z"}
+{"level":"info","message":"<@287052908145672193> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"aephevaaa\"}]","service":"Discord","timestamp":"2022-10-21T14:12:36.899Z"}
+{"level":"info","message":"<@582833885893754899> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"Vondeni\"}]","service":"Discord","timestamp":"2022-10-21T14:43:34.660Z"}
+{"level":"info","message":"<@582833885893754899> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"Canapaio\"}]","service":"Discord","timestamp":"2022-10-21T14:44:17.591Z"}
+{"level":"info","message":"<@150322678455074816> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"TauriceBot\"}]","service":"Discord","timestamp":"2022-10-21T15:50:46.981Z"}
+{"level":"info","message":"<@582833885893754899> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"SeaLobsterVS\"}]","service":"Discord","timestamp":"2022-10-21T17:09:21.431Z"}
+{"level":"info","message":"<@189238526154375169> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"Mukering\"}]","service":"Discord","timestamp":"2022-10-21T17:19:59.454Z"}
+{"level":"info","message":"<@600362952109064222> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"RoxyTheCat\"}]","service":"Discord","timestamp":"2022-10-21T17:26:08.132Z"}
+{"level":"info","message":"<@582833885893754899> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"UgabugaCola\"}]","service":"Discord","timestamp":"2022-10-21T17:34:57.422Z"}
+{"level":"info","message":"<@285864815539257345> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"bilibili22678966NC\"}]","service":"Discord","timestamp":"2022-10-21T17:57:22.166Z"}
+{"level":"info","message":"<@288748666594918401> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"Herbert96\"}]","service":"Discord","timestamp":"2022-10-21T17:59:15.640Z"}
+{"level":"info","message":"<@285864815539257345> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"d3vilgh0st\"}]","service":"Discord","timestamp":"2022-10-21T17:59:42.083Z"}
+{"level":"info","message":"Loaded commands: alt","service":"Commands","timestamp":"2022-10-22T01:08:00.501Z"}
+{"level":"info","message":"Registered global Slash Commands","service":"Commands","timestamp":"2022-10-22T01:08:00.888Z"}
+{"level":"info","message":"Big Peepo connected.","service":"Discord","timestamp":"2022-10-22T01:08:01.153Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: count | options: []","service":"Discord","timestamp":"2022-10-22T01:19:01.395Z"}
+{"level":"info","message":"<@84600137447374848> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"Like A G6 x Pashanim x SSIO x Luciano\"}]","service":"Discord","timestamp":"2022-10-22T01:47:25.460Z"}
+{"level":"info","message":"<@84600137447374848> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"SpartanSonic\"}]","service":"Discord","timestamp":"2022-10-22T01:47:42.439Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"kekbrg\"}]","service":"Discord","timestamp":"2022-10-22T02:34:39.415Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"brghtard\"}]","service":"Discord","timestamp":"2022-10-22T02:34:52.788Z"}
+{"level":"info","message":"<@125294851259367424> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"interrobang\"}]","service":"Discord","timestamp":"2022-10-22T02:36:51.519Z"}
+{"level":"info","message":"<@125294851259367424> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"MINSSICK\"}]","service":"Discord","timestamp":"2022-10-22T02:39:01.630Z"}
+{"level":"info","message":"<@378232333393854464> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"P9DoBouMyXaMoP\"}]","service":"Discord","timestamp":"2022-10-22T02:42:54.609Z"}
+{"level":"info","message":"<@1032517196821299210> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"SKYDORPS\"}]","service":"Discord","timestamp":"2022-10-22T04:27:11.320Z"}
+{"level":"info","message":"<@1032517196821299210> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"Asyncer\"}]","service":"Discord","timestamp":"2022-10-22T04:28:39.961Z"}
+{"level":"info","message":"<@582833885893754899> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"Cyrogenic\"}]","service":"Discord","timestamp":"2022-10-22T04:49:20.749Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"yourenotveryxqcl\"}]","service":"Discord","timestamp":"2022-10-22T05:03:20.798Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"Ratmouse\"}]","service":"Discord","timestamp":"2022-10-22T05:04:01.798Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"kekbrg\"}]","service":"Discord","timestamp":"2022-10-22T05:26:37.634Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"kekbrg\"}]","service":"Discord","timestamp":"2022-10-22T05:27:14.126Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"kekbrg\"}]","service":"Discord","timestamp":"2022-10-22T05:27:38.415Z"}
+{"level":"info","message":"<@288824089966018560> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"BOOTYFARTER\"}]","service":"Discord","timestamp":"2022-10-22T05:27:52.797Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"kekbrg\"}]","service":"Discord","timestamp":"2022-10-22T05:28:04.875Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"kekbrg\"}]","service":"Discord","timestamp":"2022-10-22T05:32:19.291Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"kekbrg\"}]","service":"Discord","timestamp":"2022-10-22T05:32:39.140Z"}
+{"level":"info","message":"Loaded commands: alt","service":"Commands","timestamp":"2022-10-22T07:45:58.172Z"}
+{"level":"info","message":"Registered global Slash Commands","service":"Commands","timestamp":"2022-10-22T07:45:58.548Z"}
+{"level":"info","message":"Big Peepo connected.","service":"Discord","timestamp":"2022-10-22T07:45:58.869Z"}
+{"level":"info","message":"Loaded commands: alt","service":"Commands","timestamp":"2022-10-22T07:45:59.117Z"}
+{"level":"info","message":"Registered global Slash Commands","service":"Commands","timestamp":"2022-10-22T07:45:59.504Z"}
+{"level":"info","message":"Big Peepo connected.","service":"Discord","timestamp":"2022-10-22T07:46:08.979Z"}
+{"level":"info","message":"Loaded commands: alt","service":"Commands","timestamp":"2022-10-22T07:46:20.709Z"}
+{"level":"info","message":"Big Peepo connected.","service":"Discord","timestamp":"2022-10-22T07:46:21.379Z"}
+{"level":"info","message":"Registered global Slash Commands","service":"Commands","timestamp":"2022-10-22T07:46:58.911Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"trytofly\"}]","service":"Discord","timestamp":"2022-10-22T07:47:46.539Z"}
+{"level":"info","message":"<@83598701120978944> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"TryToFly\"}]","service":"Discord","timestamp":"2022-10-22T07:48:10.550Z"}
+{"level":"info","message":"<@600362952109064222> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"Amerikako\"}]","service":"Discord","timestamp":"2022-10-22T08:45:04.921Z"}
+{"level":"info","message":"<@600362952109064222> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"SXSXSXSXSXSXSXSXSXSXSXSXSXSXSXSX\"}]","service":"Discord","timestamp":"2022-10-22T08:46:37.265Z"}
+{"level":"info","message":"<@600362952109064222> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"escaflownnc\"}]","service":"Discord","timestamp":"2022-10-22T08:48:54.293Z"}
+{"level":"info","message":"<@600362952109064222> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"MassiNC\"}]","service":"Discord","timestamp":"2022-10-22T08:49:42.293Z"}
+{"level":"info","message":"<@478363337520840704> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"oshursucks\"}]","service":"Discord","timestamp":"2022-10-22T09:01:31.981Z"}
+{"level":"info","message":"<@293887958254092291> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"TvojaSobaka\"}]","service":"Discord","timestamp":"2022-10-22T09:40:11.877Z"}
+{"level":"info","message":"<@582833885893754899> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"HK24\"}]","service":"Discord","timestamp":"2022-10-22T09:40:29.883Z"}
+{"level":"info","message":"<@202129265121034240> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"iiisilvereagleiii\"}]","service":"Discord","timestamp":"2022-10-22T09:59:50.512Z"}
+{"level":"info","message":"<@725605806262714389> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"MatildeSan\"},{\"name\":\"full\",\"type\":5,\"value\":true}]","service":"Discord","timestamp":"2022-10-22T11:05:06.746Z"}
+{"level":"info","message":"<@582833885893754899> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"Keniyuki\"}]","service":"Discord","timestamp":"2022-10-22T11:49:41.666Z"}
+{"level":"info","message":"<@582833885893754899> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"GRANDMAFROMTHEDEAD\"}]","service":"Discord","timestamp":"2022-10-22T11:50:19.646Z"}
+{"level":"info","message":"<@582833885893754899> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"KenyuiKaYnc\"}]","service":"Discord","timestamp":"2022-10-22T11:51:42.280Z"}
+{"level":"info","message":"<@582833885893754899> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"Aunvilgo\"}]","service":"Discord","timestamp":"2022-10-22T11:52:17.399Z"}
+{"level":"info","message":"<@164052702404411393> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"gonasoturi\"}]","service":"Discord","timestamp":"2022-10-22T12:21:48.845Z"}
+{"level":"info","message":"<@293887958254092291> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"hypn0tize\"}]","service":"Discord","timestamp":"2022-10-22T12:23:34.782Z"}
+{"level":"info","message":"<@224187523448963072> interaction: alt | subcommand: match | options: [{\"name\":\"name\",\"type\":3,\"value\":\"thesealtssmh\"}]","service":"Discord","timestamp":"2022-10-22T15:47:18.773Z"}

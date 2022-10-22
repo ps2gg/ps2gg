@@ -15,7 +15,7 @@ docker service create -d \
 
 # Custom overlay network to connect new and legacy stack
 echo "Setting up overlay network"
-docker network create -driver overlay --attachable ps2gg_internal
+docker network create --driver overlay --attachable ps2gg_internal
 
 # Cleanup
 echo "Cleaning up unused images and containers..."

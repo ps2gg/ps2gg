@@ -1,9 +1,15 @@
 version: '3.4'
 services:
-  postgres:
-    image: postgres
+  discord:
+    secrets:
+      - discord_token
     networks:
-      - internal
+      - ps2gg_internal
 
 networks:
-  internal:
+  ps2gg_internal:
+    external: true
+
+secrets:
+  discord_token:
+    external: true

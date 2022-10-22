@@ -7,8 +7,6 @@ services:
       - nx
       - serve
       - census
-    networks:
-      - ps2gg_internal
     volumes:
       - ../../:/app
 
@@ -19,8 +17,6 @@ services:
       - nx
       - serve
       - players
-    networks:
-      - ps2gg_internal
     volumes:
       - ../../:/app
 
@@ -31,10 +27,5 @@ services:
       - nx
       - serve
       - discord
-    networks:
-      - ps2gg_internal
     volumes:
       - ../../:/app
-
-networks:
-  - ps2gg_internal

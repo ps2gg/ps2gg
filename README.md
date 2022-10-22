@@ -13,7 +13,10 @@ You'll need a solid understanding of Nx to work with this project.
 
 ## Requirements
 
-Nothing but [Docker](https://www.docker.com/) in Swarm Mode.
+- [Docker](https://www.docker.com/) in Swarm Mode.
+- [Node](https://nodejs.org) with [yarn](https://www.npmjs.com/package/yarn)
+- A discord token as docker secret<br>
+  Add with `printf '<token>' | docker secret create discord_token -`
 
 ## Containers
 
