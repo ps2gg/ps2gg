@@ -1,10 +1,10 @@
 {
   "folders": [
     {
-      "path": "../../argus"
+      "path": "."
     },
     {
-      "path": "."
+      "path": "../ps2gg_legacy"
     }
   ],
   "settings": {}

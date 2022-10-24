@@ -86,6 +86,7 @@ export class Commands {
   }
 
   public async onInteraction(interaction: Interaction): Promise<void> {
+    if (!interaction.guild) return
     const isCommand = interaction.isChatInputCommand()
     const isAutocomplete = interaction.isAutocomplete()
     const isButton = interaction.isButton()
