@@ -1,14 +1,14 @@
 /* eslint-disable @typescript-eslint/no-unsafe-argument */
 import { continents, infantry, servers, vehicles } from '@ps2gg/common/constants'
-import { censusWs } from '@ps2gg/census/api'
 import { CensusWsEvent, Heartbeat, PlayerLoadout } from '@ps2gg/census/types'
+import { censusWs } from './ws'
 
 /**
  * Parent class to be inherited by service-specific controllers
  * The method parameters only include what's needed, not what's
  * available on the API.
  */
-export default class Controller {
+export class Controller {
   private _lastLoginId: string
   private _lastLogoutId: string
 
@@ -41,6 +41,7 @@ export default class Controller {
 
     if (payload.event_name === 'ItemAdded') {
       const { character_id, context, item_id } = payload
+
       this.onItemAdded(character_id, item_id, context)
     }
   }
@@ -65,6 +66,7 @@ export default class Controller {
       const continent = continents[payload.zone_id]
       const loadout = infantry[winner.loadout_id]
       const vehicle = vehicles[winner.vehicle_id]
+
       this.onDeath(timestamp, server, continent, winner, loser, loadout, vehicle)
     }
   }
@@ -89,17 +91,21 @@ export default class Controller {
       const continent = continents[payload.zone_id]
       const loadout = infantry[winner.loadout_id]
       const vehicle = vehicles[winner.vehicle_id]
+
       this.onVehicleDestroy(timestamp, server, continent, winner, loser, loadout, vehicle)
     }
   }
 
-  public onGainExperience(): void {}
+  public onGainExperience(timestamp: Date, character_id: string, other_id: string): void {}
   private _onGainExperience(data: CensusWsEvent) {
     const { payload } = data
     if (!payload) return
 
     if (payload.event_name === 'GainExperience') {
-      this.onGainExperience()
+      const { character_id, other_id } = payload
+      const timestamp = new Date(parseInt(payload.timestamp) * 1000)
+
+      this.onGainExperience(timestamp, character_id, other_id)
     }
   }
 
@@ -111,6 +117,7 @@ export default class Controller {
     if (payload.event_name === 'ContinentLock') {
       const server = servers[payload.world_id]
       const continent = continents[payload.zone_id]
+
       this.onContinentLock(server, continent)
     }
   }
@@ -123,6 +130,7 @@ export default class Controller {
 
     if (payload.event_name === 'PlayerLogin' && character_id !== this._lastLoginId) {
       const timestamp = new Date(parseInt(payload.timestamp) * 1000)
+
       this._lastLoginId = character_id
       this.onLogin(character_id, timestamp)
     }
@@ -136,6 +144,7 @@ export default class Controller {
 
     if (payload.event_name === 'PlayerLogout' && character_id !== this._lastLogoutId) {
       const timestamp = new Date(parseInt(payload.timestamp) * 1000)
+
       this._lastLogoutId = character_id
       this.onLogout(character_id, timestamp)
     }

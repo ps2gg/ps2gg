@@ -19,13 +19,3 @@ services:
       - players
     volumes:
       - ../../:/app
-
-  discord:
-    image: 127.0.0.1:5000/ps2gg:dev
-    entrypoint:
-      - yarn
-      - nx
-      - serve
-      - discord
-    volumes:
-      - ../../:/app

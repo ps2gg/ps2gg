@@ -22,7 +22,9 @@
       "@ps2gg/common/util": ["libs/common/util/src/index.ts"],
       "@ps2gg/discord/alts": ["libs/discord/alts/src/index.ts"],
       "@ps2gg/discord/controllers": ["libs/discord/controllers/src/index.ts"],
-      "@ps2gg/players-api": ["libs/players/api/src/index.ts"]
+      "@ps2gg/players-api": ["libs/players/api/src/index.ts"],
+      "@ps2gg/players/census": ["libs/players/census/src/index.ts"],
+      "@ps2gg/ratings/census": ["libs/ratings/census/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

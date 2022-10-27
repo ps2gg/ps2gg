@@ -2,7 +2,7 @@ import { servers } from '@ps2gg/common/constants'
 import { player } from '@ps2gg/players-api'
 import { createServiceLogger } from '@ps2gg/common/logging'
 import { Heartbeat } from '@ps2gg/census/types'
-import Controller from './controller'
+import { Controller } from '@ps2gg/census/api'
 
 const logger = createServiceLogger('Players')
 

@@ -12,6 +12,8 @@
     "discord-alts": "libs/discord/alts",
     "discord-controllers": "libs/discord/controllers",
     "players": "services/players",
-    "players-api": "libs/players/api"
+    "players-api": "libs/players/api",
+    "players-census": "libs/players/census",
+    "ratings-census": "libs/ratings/census"
   }
 }
