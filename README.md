@@ -1,6 +1,6 @@
 # ps2.gg
 
-A monorepo of microservices used to serve ps2.gg
+Ps2.gg creates a ranked mode for Planetside. With 1v1-elo-based skill brackets, seasonal leaderboards and an in-game overlay to see how you perform in real-time. This monorepo includes all microservices used to serve the website and overlay.
 
 <br>
 
