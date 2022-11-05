@@ -11,6 +11,7 @@
     "discord": "services/discord",
     "discord-alts": "libs/discord/alts",
     "discord-controllers": "libs/discord/controllers",
+    "overwolf": "services/overwolf",
     "players": "services/players",
     "players-api": "libs/players/api",
     "players-census": "libs/players/census",

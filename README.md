@@ -23,6 +23,7 @@ You'll need a solid understanding of Nx to work with this project.
 | Name     | Description                             | Internal | External | Domain |
 | -------- | --------------------------------------- | -------- | -------- | ------ |
 | census   | Relays Census data to internal services | -/-      | -/-      | -/-    |
+| discord  | Big Peepo on Discord                    | :5000    | -/-      | -/-    |
 | registry | Hosts Docker images                     | :5000    | -/-      | -/-    |
 
 ## Code Conventions
