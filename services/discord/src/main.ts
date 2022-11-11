@@ -2,7 +2,7 @@ import { GatewayIntentBits, Client, Message } from 'discord.js'
 import { Discord, Commands } from '@ps2gg/discord/controllers'
 import { readFileSync } from 'fs'
 
-const bot = new Client({ intents: [GatewayIntentBits.Guilds] })
+const bot = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent] })
 const token = readFileSync('/run/secrets/discord_token', 'utf-8')
 const discord = new Discord(bot)
 const commands = new Commands(bot)
@@ -15,9 +15,8 @@ bot.on('guildMemberAdd', (member) => {
   discord.onGuildMemberAdd(member)
 })
 
-bot.on('message', (message: Message) => {
+bot.on('messageCreate', (message: Message) => {
   discord.onMessage(message)
-  commands.onMessage(message)
 })
 
 bot.on('interactionCreate', (interaction) => {

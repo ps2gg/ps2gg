@@ -2,6 +2,7 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "alts-api": "libs/alts/api",
     "census": "services/census",
     "census-api": "libs/census/api",
     "census-types": "libs/census/types",
@@ -10,7 +11,10 @@
     "common-util": "libs/common/util",
     "discord": "services/discord",
     "discord-alts": "libs/discord/alts",
+    "discord-command": "libs/discord/command",
+    "discord-constants": "libs/discord/constants",
     "discord-controllers": "libs/discord/controllers",
+    "overwolf": "services/overwolf",
     "players": "services/players",
     "players-api": "libs/players/api",
     "players-census": "libs/players/census",

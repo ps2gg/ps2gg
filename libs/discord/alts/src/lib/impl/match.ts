@@ -1,99 +1,11 @@
-import * as Client from 'cubic-client'
 import { format } from 'timeago.js'
-import {
-  ActionRowBuilder,
-  AutocompleteInteraction,
-  ButtonBuilder,
-  ButtonStyle,
-  ButtonInteraction,
-  ChatInputCommandInteraction,
-} from 'discord.js'
-import { emojis, servers } from '@ps2gg/common/constants'
+import { servers } from '@ps2gg/common/constants'
+import { emojis } from '@ps2gg/discord/constants'
 import { getRegion } from '@ps2gg/common/util'
 
-const client = new Client({
-  api_url: 'ws://alts:3003/ws',
-  auth_url: 'ws://alts:3030/ws',
-})
-
-export async function sendMatchResponse(interaction: ChatInputCommandInteraction): Promise<void> {
-  await interaction.deferReply()
-
-  const name = interaction.options.getString('name').trim()
-  const full = interaction.options.getBoolean('full')
-  const nameSanitized = name.toString().replace(/[^a-z0-9]/gi, '')
-  const matches = await getMatches(nameSanitized)
-  const embed = getEmbed(matches, nameSanitized, full)
-  const actions = getActions(nameSanitized, false, false)
-
-  await interaction.editReply({
-    content: '**!DEV BUILD!** Check <#1031775486235389972> for current limitations.',
-    embeds: [embed],
-    // @ts-ignore
-    components: [actions],
-  })
-}
-
-export async function sendSearchSuggestions(interaction: AutocompleteInteraction): Promise<void> {
-  const query = interaction.options.getFocused()?.trim() || 'brgh'
-  const suggestions = await getSearchSuggestions(query)
-  const result = suggestions.result?.map((name) => {
-    return { name, value: name }
-  })
-
-  // eslint-disable-next-line @typescript-eslint/no-unsafe-argument
-  if (!interaction.responded) await interaction.respond(result).catch((err) => {}) // Err means it took too long
-}
-
-export async function updateMatches(interaction: ButtonInteraction): Promise<void> {
-  const name = interaction.customId.split('-')[2]
-
-  await interaction.deferUpdate()
-
-  const updatingActions = getActions(name, true, false)
-
-  // @ts-ignore
-  await interaction.editReply({ components: [updatingActions] })
-
-  await client.post(`/character/${name}/updateAll`)
-
-  const matches = await getMatches(name)
-  const embed = getEmbed(matches, name, false)
-  const updatedActions = getActions(name, false, true)
-
-  // @ts-ignore
-  return interaction.editReply({ embeds: [embed], components: [updatedActions] })
-}
-
-async function getSearchSuggestions(query) {
-  return client.get(`/character/search?query=${query}`)
-}
-
-async function getMatches(name) {
-  return client.get(`/character/${name}/alts`)
-}
-
-function getActions(name, updating, updated) {
-  const button = new ButtonBuilder()
-    .setCustomId(`alt-update-${name}`)
-    .setStyle(ButtonStyle.Secondary)
-
-  if (updating) {
-    button.setLabel('Updating...')
-    button.setDisabled(true)
-  } else if (updated) {
-    button.setLabel('Updated')
-    button.setEmoji('✅')
-    button.setDisabled(true)
-  } else {
-    button.setLabel('Update')
-  }
-
-  return new ActionRowBuilder().addComponents(button)
-}
-
-function getEmbed(matches, name, full) {
-  if (!matches.error && matches.result.length < 50) {
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
+export function getAltEmbed(matches: any, name: string, full: boolean): any {
+  if (!matches.error && matches.result.alts.length <= 13) {
     return getFullEmbed(matches.result, full, name)
   } else if (!matches.error) {
     return getWarningEmbed(name, matches.result)
@@ -103,12 +15,13 @@ function getEmbed(matches, name, full) {
 }
 
 function getFullEmbed(matches, full, name) {
-  const main = matches.find((a) => a.name.toLowerCase() === name.toLowerCase())
-  const characters = getCharacters(matches)
-  const stats = getStats(matches)
+  const { alts } = matches
+  const main = alts.find((a) => a.name.toLowerCase() === name.toLowerCase())
+  const characters = getCharacters(alts)
+  const stats = getStats(alts)
   const roles = getRoles(stats, full)
-  const roleStats = getRoleStats(roles, stats, matches)
-  const globalGrade = getGrade(stats.global, 'global', matches)
+  const roleStats = getRoleStats(roles, stats, alts)
+  const globalGrade = getGrade(stats.global, 'global', alts)
 
   return {
     title: `${getOutfit(main)}${main.name}`,
@@ -118,37 +31,37 @@ function getFullEmbed(matches, full, name) {
       //icon_url: 'https://cdn.discordapp.com/emojis/760748145801297990.png?v=1', // elo
     },
     fields: [].concat(characters).concat(roleStats.slice().reverse()),
-    footer: getFooter(matches),
+    footer: getFooter(alts),
   }
 }
 
 function getWarningEmbed(name, matches) {
   return {
-    title: `Found too many matches for ${name}.`,
-    description: `More than ${matches.length} matches.`,
+    title: `Found too many alts for ${name}.`,
+    description: `More than ${matches.length} alts.`,
   }
 }
 
 function getErrorEmbed(name, matches) {
   return {
-    title: `Found no matches for ${name}.`,
+    title: `Found no alts for ${name}.`,
     description: matches.error,
   }
 }
 
-function getCharacters(matches) {
+function getCharacters(alts) {
   const serverAlts = []
-  const maxNameLength = getMaxNameLength(matches)
+  const maxNameLength = getMaxNameLength(alts)
 
   for (const server of Object.values(servers)) {
-    addServerCharacters(serverAlts, server, matches, maxNameLength)
+    addServerCharacters(serverAlts, server, alts, maxNameLength)
   }
 
   return serverAlts
 }
 
-function addServerCharacters(serverAlts, server: string, matches, maxNameLength) {
-  const characters = matches.filter((a) => a.server === server)
+function addServerCharacters(serverAlts, server: string, alts, maxNameLength) {
+  const characters = alts.filter((a) => a.server === server)
   if (!characters.length) return
 
   const strings = []
@@ -162,10 +75,10 @@ function addServerCharacters(serverAlts, server: string, matches, maxNameLength)
   })
 }
 
-function getMaxNameLength(matches) {
+function getMaxNameLength(alts) {
   let max = 0
 
-  for (const alt of matches) {
+  for (const alt of alts) {
     const oLength = getOutfit(alt).length
     if (oLength + alt.name.length > max) max = oLength + alt.name.length
   }
@@ -179,7 +92,7 @@ function createAltString(alt, max) {
   const name = alt.name.padEnd(outfit ? padLength : padLength)
   const br = getBattleRank(alt).toLowerCase()
   const faction = getFaction(alt)
-  const experimental = alt.isExperimental ? ' · 🧪' : ''
+  const experimental = alt.matchType.includes('experimental') ? ' · 🧪' : ''
 
   return `${outfit}${name} · ${faction}${br}${experimental} `
 }
@@ -218,7 +131,7 @@ function getBattleRank(alt) {
   return alt.battleRank ? ` · ʙʀ${alt.battleRank}` : ''
 }
 
-function getStats(matches) {
+function getStats(alts) {
   const stats = {
     global: {
       playTime: 0,
@@ -227,7 +140,7 @@ function getStats(matches) {
     },
   }
 
-  for (const alt of matches) {
+  for (const alt of alts) {
     if (!alt.stats) continue
     sumClassStats(stats, alt.stats, alt.rating)
     sumGlobalStats(stats, alt.stats, alt.rating)
@@ -283,11 +196,11 @@ function getRoles(stats, full) {
   return roles
 }
 
-function getRoleStats(roles, stats, matches) {
+function getRoleStats(roles, stats, alts) {
   const roleStats = []
 
   for (const role of roles) {
-    const statsStrings = getRoleStatsStrings(stats[role], role, matches)
+    const statsStrings = getRoleStatsStrings(stats[role], role, alts)
 
     roleStats.push({
       name: `${emojis[role]} ${capitalize(role)}`,
@@ -299,10 +212,10 @@ function getRoleStats(roles, stats, matches) {
   return roleStats
 }
 
-function getRoleStatsStrings(stats, role, matches) {
+function getRoleStatsStrings(stats, role, alts) {
   const strings: string[] = []
 
-  addElo(strings, stats, role, matches)
+  addElo(strings, stats, role, alts)
   addKills(strings, stats)
   addTime(strings, stats)
   addUsage(strings, stats)
@@ -311,9 +224,9 @@ function getRoleStatsStrings(stats, role, matches) {
   return strings
 }
 
-function addElo(strings, stats, role, matches) {
+function addElo(strings, stats, role, alts) {
   if (stats.rating) {
-    const grade = getGrade(stats, role, matches)
+    const grade = getGrade(stats, role, alts)
 
     // eslint-disable-next-line @typescript-eslint/no-unsafe-argument
     strings.push(`${Math.round(stats.rating)} ᴇʟᴏ [${grade}]`)
@@ -346,21 +259,20 @@ function padStrings(strings: string[]) {
   }
 }
 
-function getGrade(stats, role, matches) {
+function getGrade(stats, role, alts) {
   return '-'
 }
 
-function getFooter(matches) {
-  const online = matches.find((a) => a.online)
+function getFooter(alts) {
+  const online = alts.find((a) => a.online)
   const onlineIcon = 'https://cdn.discordapp.com/emojis/717334812083355658.png?v=1'
   const offlineIcon = 'https://cdn.discordapp.com/emojis/717334809621430352.png?v=1'
-  const { lastLogout, alt } = getLastLogout(online, matches)
+  const { lastLogout, alt } = getLastLogout(online, alts)
   const agesAgo = lastLogout < new Date().getTime() - 1000 * 60 * 60 * 24 * 365 * 20
   const text = online
     ? `Playing as ${online.name}, ${online.server} ${online.faction}.`
-    : `Last seen ${agesAgo ? 'a looong time ago' : format(lastLogout)}${
-        alt ? ` as ${alt.name}` : ''
-      }.`
+    : `Last seen ${agesAgo ? 'a looong time ago' : format(lastLogout)}${alt ? ` as ${alt.name}` : ''
+    }.`
 
   return {
     // 37 is max length without breaking the format
@@ -369,12 +281,12 @@ function getFooter(matches) {
   }
 }
 
-function getLastLogout(online, matches) {
+function getLastLogout(online, alts) {
   if (online) return {}
   let max = 0
   let alt = null
 
-  matches.map((a) => {
+  alts.map((a) => {
     if (!a.lastLogout) return
     // eslint-disable-next-line @typescript-eslint/no-unsafe-argument
     const d = new Date(a.lastLogout).getTime()

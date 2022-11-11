@@ -13,7 +13,20 @@ services:
     - census
     image: 127.0.0.1:5000/ps2gg:dev
     volumes:
-    - /opt/planetside/ps2gg:/app:rw
+    - /opt/ps2gg:/app:rw
+  discord:
+    entrypoint:
+    - yarn
+    - nx
+    - serve
+    - discord
+    image: 127.0.0.1:5000/ps2gg:dev
+    networks:
+      ps2gg_internal: {}
+    secrets:
+    - source: discord_token
+    volumes:
+    - /opt/ps2gg:/app:rw
   players:
     entrypoint:
     - yarn
@@ -22,6 +35,6 @@ services:
     - players
     image: 127.0.0.1:5000/ps2gg:dev
     volumes:
-    - /opt/planetside/ps2gg:/app:rw
+    - /opt/ps2gg:/app:rw
 version: '3.4'
 

@@ -1,5 +1,19 @@
 version: '3.4'
 services:
+  discord:
+    image: 127.0.0.1:5000/ps2gg:dev
+    entrypoint:
+      - yarn
+      - nx
+      - serve
+      - discord
+    volumes:
+      - ../../:/app
+    secrets:
+      - discord_token
+    networks:
+      - ps2gg_internal
+
   census:
     image: 127.0.0.1:5000/ps2gg:dev
     entrypoint:

@@ -9,6 +9,9 @@ const client = new Client({
   auth_url: 'ws://alts:3030/ws',
 })
 
+/**
+ * @deprecated, we'd rather save the index cost for this query
+ */
 export async function sendCountRealtimeUpdates(
   interaction: ChatInputCommandInteraction
 ): Promise<void> {
@@ -23,6 +26,9 @@ export async function sendCountRealtimeUpdates(
   setChannelUpdateInterval(interaction, message)
 }
 
+/**
+ * @deprecated, we'd rather save the index cost for this query
+ */
 export async function sendCountResponse(interaction: ChatInputCommandInteraction): Promise<void> {
   const count = await getCount()
 
