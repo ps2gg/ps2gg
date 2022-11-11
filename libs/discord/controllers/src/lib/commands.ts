@@ -1,19 +1,12 @@
 import { createServiceLogger } from '@ps2gg/common/logging'
-import { altCommandHandler } from '@ps2gg/discord/alts'
-import {
-  Client,
-  Collection,
-  Interaction,
-  Message,
-  REST,
-  Routes,
-  SlashCommandBuilder,
-} from 'discord.js'
+import { altCommand } from '@ps2gg/discord/alts'
+import { Client, Collection, Interaction, REST, Routes, SlashCommandBuilder } from 'discord.js'
 import { readFileSync } from 'fs'
 
 const logger = createServiceLogger('Commands')
 const token = readFileSync('/run/secrets/discord_token', 'utf-8')
 const rest = new REST({ version: '10' }).setToken(token)
+const prod = process.env.NODE_ENV === 'production'
 
 export class Commands {
   public constructor(
@@ -26,8 +19,8 @@ export class Commands {
   }
 
   private _loadCommands() {
-    this._bot.commands.set('alt', altCommandHandler)
-    this._meta.push(this._getCommandMeta(altCommandHandler))
+    this._bot.commands.set('alt', altCommand)
+    this._meta.push(this._getCommandMeta(altCommand))
     logger.info(`Loaded commands: ${this._meta.map((c) => c.name)}`)
   }
 
@@ -81,12 +74,11 @@ export class Commands {
     logger.info('Registered global Slash Commands')
   }
 
-  public onMessage(message: Message): void {
-    if (message.author.bot) return
-  }
-
   public async onInteraction(interaction: Interaction): Promise<void> {
     if (!interaction.guild) return
+    if (prod && interaction.guild.id === '893477714848280576') return
+    if (!prod && interaction.guild.id === '405230261819670528') return
+
     const isCommand = interaction.isChatInputCommand()
     const isAutocomplete = interaction.isAutocomplete()
     const isButton = interaction.isButton()
@@ -108,11 +100,10 @@ export class Commands {
   private async _runInteraction(interaction, command, isCommand, isAutocomplete, isButton) {
     if (isCommand) {
       await command.execute(interaction)
+    } else if (isButton) {
+      await command.executeAction(interaction)
     } else if (isAutocomplete) {
       await command.autocomplete(interaction)
-    } else if (isButton) {
-      console.log(interaction)
-      await command.executeButton(interaction)
     }
   }
 

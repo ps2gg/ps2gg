@@ -11,10 +11,8 @@ services:
     - /app/services/discord/src/entrypoint.sh
     image: 127.0.0.1:5000/ps2gg:prod
     networks:
-      ps2gg_internal: null
+      ps2gg_internal: {}
     secrets:
     - source: discord_token
-    volumes:
-    - /opt/planetside/ps2gg:/app:rw
 version: '3.4'
 

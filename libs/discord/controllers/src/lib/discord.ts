@@ -1,18 +1,21 @@
-import { createServiceLogger } from '@ps2gg/common/logging'
 import { Client, GuildMember, Interaction, Message } from 'discord.js'
+import { createServiceLogger } from '@ps2gg/common/logging'
+import { redirectLegacyAltSpy, removeNoneThreadedMessage } from '@ps2gg/discord/alts'
 
 const logger = createServiceLogger('Discord')
 
 export class Discord {
-  public constructor(private _bot: Client) {}
+  public constructor(private _bot: Client) { }
 
   public onReady(): void {
     logger.info(`${this._bot.user?.username} connected.`)
   }
 
-  public onMessage(message: Message): void {
+  public async onMessage(message: Message): Promise<void> {
     if (message.author.bot) return
     this._log(message)
+    await redirectLegacyAltSpy(message)
+    await removeNoneThreadedMessage(message)
   }
 
   public onInteraction(interaction: Interaction): void {
@@ -61,7 +64,6 @@ function messageToString(message) {
 }
 
 function instanceToString(instance) {
-  return `<@${instance.user.id}> interaction: ${instance.commandName} | subcommand: ${
-    instance.options._subcommand
-  } | options: ${JSON.stringify(instance.options._hoistedOptions)}`
+  return `<@${instance.user.id}> interaction: ${instance.commandName} | subcommand: ${instance.options._subcommand
+    } | options: ${JSON.stringify(instance.options._hoistedOptions)}`
 }
