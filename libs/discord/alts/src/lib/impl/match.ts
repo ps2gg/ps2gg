@@ -5,7 +5,7 @@ import { getRegion } from '@ps2gg/common/util'
 
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export function getAltEmbed(matches: any, name: string, full: boolean): any {
-  if (!matches.error && matches.result.alts.length <= 13) {
+  if (!matches.error && matches.result.alts.length <= 30) {
     return getFullEmbed(matches.result, full, name)
   } else if (!matches.error) {
     return getWarningEmbed(name, matches.result)
@@ -38,7 +38,7 @@ function getFullEmbed(matches, full, name) {
 function getWarningEmbed(name, matches) {
   return {
     title: `Found too many alts for ${name}.`,
-    description: `More than ${matches.length} alts.`,
+    description: `More than ${matches.alts.length} alts.`,
   }
 }
 
