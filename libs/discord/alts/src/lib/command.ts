@@ -40,7 +40,7 @@ class AltCommand implements Command {
     const nameSanitized = name.toString().replace(/[^a-z0-9]/gi, '')
     const matches = await getAltMatches(nameSanitized)
     const embed = getAltEmbed(matches, nameSanitized, full)
-    const experimentalCount = matches.result.alts.reduce((previous, current) =>
+    const experimentalCount = matches.result?.alts.reduce((previous, current) =>
       previous + (current.matchType.includes('experimental') ? 1 : 0)
       , 0)
     const hints: number = (matches.result?.hints || 0) - experimentalCount
