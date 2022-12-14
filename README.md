@@ -1,6 +1,8 @@
 # ps2.gg
 
-Ps2.gg creates a ranked mode for Planetside. With 1v1-elo-based skill brackets, seasonal leaderboards and an in-game overlay to see how you perform in real-time. This monorepo includes all microservices used to serve the website and overlay.
+This is the home of PS2.gg, the inofficial ranked mode for Planetside.
+See how you perform in real-time with 1v1-elo-based skill brackets and seasonal leaderboards. All in an in-game overlay that feels like it's part of the game itself! 
+This monorepo includes all microservices used to serve the website and overlay.
 
 <br>
 
