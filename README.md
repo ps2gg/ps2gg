@@ -2,6 +2,7 @@
 
 This is the home of PS2.gg, the inofficial ranked mode for Planetside.
 See how you perform in real-time with 1v1-elo-based skill brackets and seasonal leaderboards. All in an in-game overlay that feels like it's part of the game itself! 
+
 This monorepo includes all microservices used to serve the website and overlay.
 
 <br>
